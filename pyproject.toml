@@ -1,0 +1,13 @@
+[project]
+name = "build-to-learn-celery"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "celery==5.6",
+    "django==5.1",
+    "django-celery-beat>=2.9.0",
+    "django-celery-results>=2.6.0",
+]
+
